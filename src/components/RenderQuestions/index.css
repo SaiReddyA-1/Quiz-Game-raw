@@ -1,0 +1,102 @@
+.containerRender {
+  padding: 20px;
+  font-family: Inter, sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin-right: 30px;
+  margin-left: 30px;
+}
+
+.questionContainer {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: stretch;
+  margin: 10px 40px 30px 40px;
+}
+
+.questionText {
+  align-self: center;
+  margin-bottom: 10px;
+  text-align: center;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 32px;
+}
+
+.optionsList {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.optionItem {
+  width: 40%;
+  box-sizing: border-box;
+  text-align: center;
+  margin: 10px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.buttonCon {
+  background: rgba(203, 213, 225, 1);
+  font-family: Inter, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 24px;
+  text-align: center;
+  color: rgba(125, 125, 125, 1);
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 4px;
+  width: 100%;
+}
+
+.buttonCon:hover {
+  background: rgba(173, 183, 195, 1);
+}
+
+.buttonCon:disabled {
+  background: rgba(203, 213, 225, 1);
+  cursor: not-allowed;
+}
+
+.buttonCon.selected {
+  background: rgba(173, 183, 195, 1);
+  color: rgba(255, 255, 255, 1);
+}
+
+.buttonContainer {
+  text-align: center;
+  margin-top: auto;
+  align-self: flex-end;
+  margin: 10px 50px 50px 0;
+}
+.iconContainer {
+  width: 32px;
+  height: 32px;
+}
+.onSelectButton {
+  background: rgba(14, 165, 233, 1);
+  color: white;
+  border-radius: 10px;
+}
+.onSelectButton:hover {
+  background: rgba(14, 165, 233, 1);
+  color: black;
+}
+.optionItemCheck {
+  background: rgba(28, 148, 75, 1);
+}
+.optionItemClose {
+  background: rgba(191, 38, 38, 1);
+}

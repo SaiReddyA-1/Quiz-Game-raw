@@ -1,0 +1,77 @@
+.quizContainer {
+  background-image: linear-gradient(
+    to right,
+    #dbbcc4,
+    #f3dfd8,
+    #d8bfd0,
+    #b7b1d5
+  );
+
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+.questionsContainer {
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+.questionsCard {
+  margin-top: 30px;
+  width: 77vw;
+  height: 80vh;
+  background-color: white;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+}
+.headerQ {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px;
+}
+.qNum {
+  font-family: Inter;
+  font-size: 24px;
+  text-align: center;
+  color: rgba(248, 250, 252, 1);
+  gap: 0px;
+}
+.pink {
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0px;
+  border-radius: 4px;
+  opacity: 0px;
+  background: rgba(210, 167, 179, 1);
+  color: rgba(51, 65, 85, 1);
+  padding-right: 20px;
+  padding-left: 20px;
+  text-align: center;
+}
+.qq {
+  gap: 0px;
+  padding: 0px;
+}
+.imageTimer {
+  width: 48px;
+  height: 48px;
+}
+.loader-container {
+  flex-grow: 1;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.questionCon {
+  flex-grow: 1;
+}

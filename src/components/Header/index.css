@@ -1,0 +1,25 @@
+.img {
+  width: 77px;
+  height: 56px;
+}
+.butt1 {
+  background-color: transparent;
+  border: 2px solid rgba(175, 175, 175, 1);
+  width: 86px;
+  height: 40px;
+  padding: 12px;
+  border-radius: 8px;
+  opacity: 0px;
+  align-self: center;
+  text-align: center;
+  color: rgba(175, 175, 175, 1);
+}
+.container1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background: rgba(250, 251, 254, 1);
+  width: 100vw;
+}
